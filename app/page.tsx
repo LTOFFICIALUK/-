@@ -42,7 +42,7 @@ const HeroSection = () => {
           </p>
           <p className="text-lg text-solana-text-gray mb-12 max-w-3xl mx-auto leading-relaxed">
             Born from the official Solana tweet, $苹果链 represents the future of blockchain technology. 
-            Built on Solana's lightning-fast network, this is more than a memecoin - it's a movement.
+            Built on Solana&apos;s lightning-fast network, this is more than a memecoin - it&apos;s a movement.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
@@ -96,7 +96,7 @@ const FeaturesSection = () => {
             Why <span className="gradient-text">$苹果链</span>?
           </h2>
           <p className="text-xl text-solana-text-gray max-w-3xl mx-auto">
-            More than just a memecoin - it's Solana's response to the future of blockchain technology.
+            More than just a memecoin - it&apos;s Solana&apos;s response to the future of blockchain technology.
           </p>
         </div>
         
@@ -127,15 +127,15 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-6 text-solana-text-gray leading-relaxed">
               <p className="text-lg">
-                When Solana's official X account posted about "苹果链" (Apple Chain) with a wink, 
+                When Solana&apos;s official X account posted about &ldquo;苹果链&rdquo; (Apple Chain) with a wink, 
                 the community knew something special was happening.
               </p>
               <p className="text-lg">
-                This isn't just another memecoin. It's Solana's declaration as the premium blockchain - 
+                This isn&apos;t just another memecoin. It&apos;s Solana&apos;s declaration as the premium blockchain - 
                 the Apple of crypto, the alpha chain that sets the standard for all others.
               </p>
               <p className="text-lg">
-                Built on Solana's revolutionary proof-of-history consensus, $苹果链 represents the 
+                Built on Solana&apos;s revolutionary proof-of-history consensus, $苹果链 represents the 
                 perfect blend of innovation, speed, and reliability that makes Solana the blockchain of choice.
               </p>
             </div>
@@ -147,7 +147,7 @@ const AboutSection = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4 gradient-text">Official Endorsement</h3>
               <p className="text-solana-text-gray">
-                Created from Solana's official tweet, 
+                Created from Solana&apos;s official tweet, 
                 making it a truly community-driven project with institutional backing.
               </p>
             </div>
@@ -166,7 +166,7 @@ const CommunitySection = () => {
           Join the <span className="gradient-text">Community</span>
         </h2>
         <p className="text-xl text-solana-text-gray mb-12 max-w-3xl mx-auto">
-          Be part of the movement that's redefining what a blockchain can be. 
+          Be part of the movement that&apos;s redefining what a blockchain can be. 
           Connect with fellow believers in the Apple Chain.
         </p>
         
