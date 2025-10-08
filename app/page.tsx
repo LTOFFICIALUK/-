@@ -41,7 +41,7 @@ const HeroSection = () => {
             Solana IS the Alpha Chain
           </p>
           <p className="text-lg text-solana-text-gray mb-12 max-w-3xl mx-auto leading-relaxed">
-            Other chains are trying to take over the trenches, but we know the truth: <span className="font-bold text-solana-green">Solana IS the alpha chain.</span> It&apos;s our job to prove this fact to the world. $苹果链 isn&apos;t just a token - it&apos;s the community&apos;s declaration that Solana dominates the blockchain space.
+            In China, they divided people into &ldquo;Apple&rdquo; and &ldquo;Android&rdquo; classes - the elite versus the rest. Then Solana tweeted &ldquo;Apple Chain&rdquo; and deleted it. <span className="font-bold text-solana-green">The message was clear: Solana is the real Apple Chain.</span> $苹果链 isn&apos;t just a token - it&apos;s our declaration that Solana dominates the blockchain space.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
@@ -127,23 +127,21 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-6 text-solana-text-gray leading-relaxed">
               <p className="text-lg">
-                The battlefield is clear: other chains are fighting to take over the trenches, 
-                claiming they&apos;re the future. But we know better. 
-                <span className="font-bold text-solana-purple"> Solana IS the alpha chain.</span>
+                In China, blogger Hu Chengfeng divided people into &ldquo;Apple&rdquo; and &ldquo;Android&rdquo; classes. 
+                iPhone users were the elite. Android users were the rest. 
+                <span className="font-bold text-solana-purple"> &ldquo;Living an Apple life&rdquo; became the symbol of success.</span>
               </p>
               <p className="text-lg">
-                When Solana&apos;s official X account blessed &ldquo;苹果链&rdquo; (Apple Chain), 
-                it wasn&apos;t just a tweet - it was a rallying cry. This token is our weapon, 
-                our proof to the world that Solana dominates the blockchain space.
+                Then Solana tweeted &ldquo;Apple Chain&rdquo; and deleted it. 
+                <span className="font-bold text-solana-green"> The message was clear: Solana is the real Apple Chain.</span>
               </p>
               <p className="text-lg">
-                It&apos;s not a question of <em>becoming</em> the alpha - Solana already IS. 
-                Our mission? To send this token and prove what we already know: 
-                <span className="font-bold text-solana-green"> no other chain can replicate what Solana trenchers can do.</span>
+                Other chains fight for the trenches, but we know the truth. 
+                Solana IS the alpha chain. It&apos;s our job to prove this to the world.
               </p>
               <p className="text-lg">
-                While others talk, we execute. $苹果链 is the community&apos;s declaration that 
-                Solana sets the standard, and it&apos;s our job to make sure the whole world knows it.
+                $苹果链 isn&apos;t just a token - it&apos;s the community&apos;s declaration that 
+                Solana dominates the blockchain space. While others talk, we execute.
               </p>
             </div>
           </div>
@@ -154,9 +152,8 @@ const AboutSection = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4 gradient-text">Our Mission</h3>
               <p className="text-solana-text-gray">
-                Born from Solana&apos;s official blessing, $苹果链 is the community&apos;s tool 
-                to prove what we know: Solana IS the alpha chain. It&apos;s our job to send this token 
-                and show the world which chain truly dominates.
+                Born from Solana&apos;s blessing, $苹果链 is our weapon to prove what we know: 
+                Solana IS the alpha chain. No other chain can replicate what Solana trenchers can do.
               </p>
             </div>
           </div>
@@ -204,6 +201,8 @@ const CommunitySection = () => {
 }
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear()
+
   return (
     <footer className="bg-black border-t border-solana-light-gray/20 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -214,7 +213,7 @@ const Footer = () => {
           </div>
           <div className="text-solana-text-gray text-center md:text-right">
             <p className="mb-2">Solana IS The Alpha Chain</p>
-            <p className="text-sm">© 2024 $苹果链. All rights reserved.</p>
+            <p className="text-sm">© {currentYear} $苹果链. All rights reserved.</p>
           </div>
         </div>
       </div>
