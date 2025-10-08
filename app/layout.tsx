@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import CustomCursor from './components/CustomCursor'
 
 export const metadata: Metadata = {
   title: '$苹果链 | Apple Chain - The Alpha Chain',
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
+        <CustomCursor />
         {children}
       </body>
     </html>

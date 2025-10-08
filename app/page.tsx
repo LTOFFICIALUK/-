@@ -38,11 +38,10 @@ const HeroSection = () => {
             The Apple Chain
           </p>
           <p className="text-xl md:text-2xl font-semibold gradient-text mb-8">
-            Solana is the Alpha Chain
+            Solana IS the Alpha Chain
           </p>
           <p className="text-lg text-solana-text-gray mb-12 max-w-3xl mx-auto leading-relaxed">
-            Born from the official Solana tweet, $苹果链 represents the future of blockchain technology. 
-            Built on Solana&apos;s lightning-fast network, this is more than a memecoin - it&apos;s a movement.
+            Other chains are trying to take over the trenches, but we know the truth: <span className="font-bold text-solana-green">Solana IS the alpha chain.</span> It&apos;s our job to prove this fact to the world. $苹果链 isn&apos;t just a token - it&apos;s the community&apos;s declaration that Solana dominates the blockchain space.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
@@ -96,7 +95,8 @@ const FeaturesSection = () => {
             Why <span className="gradient-text">$苹果链</span>?
           </h2>
           <p className="text-xl text-solana-text-gray max-w-3xl mx-auto">
-            More than just a memecoin - it&apos;s Solana&apos;s response to the future of blockchain technology.
+            While other chains fight for the trenches, we&apos;re here to prove what&apos;s already true: 
+            <span className="font-bold text-solana-purple"> Solana IS the alpha chain.</span>
           </p>
         </div>
         
@@ -127,16 +127,23 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-6 text-solana-text-gray leading-relaxed">
               <p className="text-lg">
-                When Solana&apos;s official X account posted about &ldquo;苹果链&rdquo; (Apple Chain) with a wink, 
-                the community knew something special was happening.
+                The battlefield is clear: other chains are fighting to take over the trenches, 
+                claiming they&apos;re the future. But we know better. 
+                <span className="font-bold text-solana-purple"> Solana IS the alpha chain.</span>
               </p>
               <p className="text-lg">
-                This isn&apos;t just another memecoin. It&apos;s Solana&apos;s declaration as the premium blockchain - 
-                the Apple of crypto, the alpha chain that sets the standard for all others.
+                When Solana&apos;s official X account blessed &ldquo;苹果链&rdquo; (Apple Chain), 
+                it wasn&apos;t just a tweet - it was a rallying cry. This token is our weapon, 
+                our proof to the world that Solana dominates the blockchain space.
               </p>
               <p className="text-lg">
-                Built on Solana&apos;s revolutionary proof-of-history consensus, $苹果链 represents the 
-                perfect blend of innovation, speed, and reliability that makes Solana the blockchain of choice.
+                It&apos;s not a question of <em>becoming</em> the alpha - Solana already IS. 
+                Our mission? To send this token and prove what we already know: 
+                <span className="font-bold text-solana-green"> no other chain can replicate what Solana trenchers can do.</span>
+              </p>
+              <p className="text-lg">
+                While others talk, we execute. $苹果链 is the community&apos;s declaration that 
+                Solana sets the standard, and it&apos;s our job to make sure the whole world knows it.
               </p>
             </div>
           </div>
@@ -145,10 +152,11 @@ const AboutSection = () => {
               <div className="w-32 h-32 bg-black rounded-full flex items-center justify-center mx-auto mb-6 animate-pulse-slow">
                 <Logo size="xl" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 gradient-text">Official Endorsement</h3>
+              <h3 className="text-2xl font-bold mb-4 gradient-text">Our Mission</h3>
               <p className="text-solana-text-gray">
-                Created from Solana&apos;s official tweet, 
-                making it a truly community-driven project with institutional backing.
+                Born from Solana&apos;s official blessing, $苹果链 is the community&apos;s tool 
+                to prove what we know: Solana IS the alpha chain. It&apos;s our job to send this token 
+                and show the world which chain truly dominates.
               </p>
             </div>
           </div>
@@ -166,8 +174,9 @@ const CommunitySection = () => {
           Join the <span className="gradient-text">Community</span>
         </h2>
         <p className="text-xl text-solana-text-gray mb-12 max-w-3xl mx-auto">
-          Be part of the movement that&apos;s redefining what a blockchain can be. 
-          Connect with fellow believers in the Apple Chain.
+          Other chains are battling for dominance, but we already know who wins. 
+          <span className="font-bold text-solana-green">It&apos;s our job to send this token</span> and 
+          prove to the world what we already know: <span className="font-bold gradient-text">Solana IS the alpha chain.</span>
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -204,7 +213,7 @@ const Footer = () => {
             <span className="text-xl font-bold gradient-text">$苹果链</span>
           </div>
           <div className="text-solana-text-gray text-center md:text-right">
-            <p className="mb-2">Solana - The Alpha Chain</p>
+            <p className="mb-2">Solana IS The Alpha Chain</p>
             <p className="text-sm">© 2024 $苹果链. All rights reserved.</p>
           </div>
         </div>

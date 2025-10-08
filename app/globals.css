@@ -11,6 +11,11 @@
   
   body {
     @apply bg-solana-dark text-solana-text;
+    cursor: none;
+  }
+  
+  * {
+    cursor: none !important;
   }
 }
 
@@ -29,5 +34,27 @@
   
   .gradient-text {
     @apply bg-gradient-to-r from-solana-purple to-solana-green bg-clip-text text-transparent;
+  }
+  
+  .custom-cursor {
+    @apply fixed pointer-events-none z-[9999] mix-blend-screen;
+    transition: transform 0.15s ease-out;
+  }
+  
+  .cursor-orb {
+    @apply w-5 h-5 rounded-full;
+    background: linear-gradient(135deg, #9945FF 0%, #14F195 100%);
+    animation: pulse 2s ease-in-out infinite;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1);
   }
 }
